@@ -14,7 +14,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - cp ../appspec.yml build/  # Assuming the build directory is a subdirectory of the root
+      - cp appspec.yml build/  # Assuming the build directory is a subdirectory of the root
 
 artifacts:
   files:
